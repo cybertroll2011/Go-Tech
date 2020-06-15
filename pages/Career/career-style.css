@@ -1,0 +1,190 @@
+.video-wrapper{
+	text-align: center;
+}
+.video-wrapper .title{
+	margin-bottom: 30px;
+	font-size: 36px;
+}
+.video__subtitle{
+	max-width: 60%;
+	margin: 0 auto 25px;
+}
+.career-video{
+	display: block;
+	width: 100%;
+	height: 650px;
+	border: 2px solid black;
+}
+
+/*<!-- LIFE AT GOTECH ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ -->*/
+
+.life-gotech{
+	margin-top: 95px;
+	text-align: center;
+}
+.life-gotech .title{
+	font-size: 36px;
+}
+.life-gotech-items{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+.life-gotech-items img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+.life-gotech-item{
+	width: 25%;
+}
+.life-gotech-item-big{
+	width: 50%;
+}
+.life-gotech-item-wrapper{
+	width: 25%;
+}
+.life-gotech-item-wrapper img{
+	height: 50%;
+}
+
+/*<!-- JOBS ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ -->*/
+
+.jobs{
+	margin-top: 95px;
+	padding-bottom: 60px;
+}
+.jobs .title{
+	font-size: 36px;
+	text-align: center;
+}
+.jobs-btn__bar{
+	margin: 30px 0 50px;
+	text-align: center;
+}
+.jobs-btn{
+	margin-right: 35px;
+	padding: 10px 25px;
+	color: #9D60EB;
+	background-color: #fff;
+	border: 2px solid #9D60EB;
+	border-radius: 5px;
+	font-size: 1rem;
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	transition: .2s ease;
+}
+.jobs-btn:last-child{
+	margin-right: 0;
+}
+.jobs-btn:hover{
+	color: #fff;
+	background: linear-gradient(to top right, #7968D8, #C97FDE);
+}
+.jobs-btn-active{
+	color: #fff;
+	background: linear-gradient(to top right, #7968D8, #C97FDE);
+}
+
+.jobs__items-wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.job-item{
+	width: 31%;
+	margin-bottom: 40px;
+	padding: 40px 35px;
+	box-shadow: 0 10px 30px rgba(153,153,153,.2);
+	box-sizing: border-box;
+}
+.job-position{
+	margin-bottom: 20px;
+	color: #222222;
+	font-size: 24px;
+	font-weight: bold;
+}
+.job-address{
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 2px solid #EBEBEB;
+}
+.job-date{
+	display: flex;
+	align-items: center;
+	margin: 20px 0 35px;
+	color: #999999;
+}
+.job-date img{
+	margin-right: 5px;
+}
+
+
+
+@media(max-width: 990px){
+	.career-video{
+		height: 520px;
+	}
+	.job-item{
+		width: 47%;
+	}
+}
+@media(max-width: 770px){
+	.video__subtitle{
+		max-width: 80%;
+	}
+	.career-video{
+		height: 400px;
+	}
+	.life-gotech-item{
+		width: 50%;
+	}
+	.life-gotech-item-big{
+		width: 100%;
+	}
+	.life-gotech-item-wrapper{
+		width: 50%;
+	}
+	.jobs-btn{
+		width: 40%;
+		margin: 0 auto 25px;
+	}
+	.job-item{
+		padding: 20px 10px;
+	}
+}
+@media(max-width: 455px){
+	.video-wrapper .title{
+		font-size: 28px;
+	}
+	.video__subtitle{
+		max-width: 90%;
+	}
+	.career-video{
+		height: 250px;
+	}
+	.life-gotech .title{
+		font-size: 28px;
+	}
+	.jobs .title{
+		font-size: 28px;
+	}
+	.jobs-btn__bar{
+		margin-bottom: 25px;
+	}
+	.jobs-btn{
+		width: 80%;
+		margin: 0 auto 25px;
+	}
+	.job-item{
+		width: 90%;
+		margin: 0 auto 30px;
+	}
+}
